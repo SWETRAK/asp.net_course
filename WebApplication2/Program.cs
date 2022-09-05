@@ -1,5 +1,5 @@
 using WebApplication2.Entities;
-using WebApplication2.Mappers;
+using WebApplication2.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +9,8 @@ builder.Services.AddControllers();
 // Database
 builder.Services.AddDbContext<RestaurantDbContext>();
 builder.Services.AddScoped<RestaurantSeeder>();
+
+builder.Services.AddScoped<IRestaurantService, RestaurantService>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); // AutoMapper implementation
 
