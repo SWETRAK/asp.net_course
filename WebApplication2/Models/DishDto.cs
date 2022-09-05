@@ -1,6 +1,6 @@
-namespace WebApplication2.Entities;
+﻿namespace WebApplication2.Models;
 
-public sealed class Dish
+public class DishDto
 {
     public int Id { get; set; }
 
@@ -9,10 +9,4 @@ public sealed class Dish
     public string Description { get; set; }
 
     public decimal Price { get; set; }
-    
-
-    public int RestaurantId { get; set; }
-
-    public Restaurant Restaurant { get; set; }
-
 }

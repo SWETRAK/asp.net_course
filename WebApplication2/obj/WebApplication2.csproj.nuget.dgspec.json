@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kamilpietrak/RiderProjects/WebApplication2/WebApplication2/WebApplication2.csproj": {}
+    "C:\\Users\\pietrakk\\Projects\\asp.net_course\\WebApplication2\\WebApplication2.csproj": {}
   },
   "projects": {
-    "/Users/kamilpietrak/RiderProjects/WebApplication2/WebApplication2/WebApplication2.csproj": {
+    "C:\\Users\\pietrakk\\Projects\\asp.net_course\\WebApplication2\\WebApplication2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kamilpietrak/RiderProjects/WebApplication2/WebApplication2/WebApplication2.csproj",
+        "projectUniqueName": "C:\\Users\\pietrakk\\Projects\\asp.net_course\\WebApplication2\\WebApplication2.csproj",
         "projectName": "WebApplication2",
-        "projectPath": "/Users/kamilpietrak/RiderProjects/WebApplication2/WebApplication2/WebApplication2.csproj",
-        "packagesPath": "/Users/kamilpietrak/.nuget/packages/",
-        "outputPath": "/Users/kamilpietrak/RiderProjects/WebApplication2/WebApplication2/obj/",
+        "projectPath": "C:\\Users\\pietrakk\\Projects\\asp.net_course\\WebApplication2\\WebApplication2.csproj",
+        "packagesPath": "C:\\Users\\pietrakk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pietrakk\\Projects\\asp.net_course\\WebApplication2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kamilpietrak/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\pietrakk\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.8, )"
@@ -76,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

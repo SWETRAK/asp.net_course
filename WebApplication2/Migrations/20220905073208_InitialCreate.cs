@@ -15,8 +15,8 @@ namespace WebApplication2.Migrations
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    City = table.Column<string>(type: "text", nullable: true),
-                    Street = table.Column<string>(type: "text", nullable: true),
+                    City = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: true),
+                    Street = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: true),
                     PostalCode = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>

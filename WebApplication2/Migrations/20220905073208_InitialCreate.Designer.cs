@@ -11,7 +11,7 @@ using WebApplication2.Entities;
 namespace WebApplication2.Migrations
 {
     [DbContext(typeof(RestaurantDbContext))]
-    [Migration("20220904184329_InitialCreate")]
+    [Migration("20220905073208_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,13 +32,15 @@ namespace WebApplication2.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("City")
-                        .HasColumnType("text");
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
                     b.Property<string>("PostalCode")
                         .HasColumnType("text");
 
                     b.Property<string>("Street")
-                        .HasColumnType("text");
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
                     b.HasKey("Id");
 
