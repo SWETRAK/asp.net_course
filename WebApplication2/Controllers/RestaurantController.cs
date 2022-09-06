@@ -1,7 +1,5 @@
-﻿using AutoMapper;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using WebApplication2.Entities;
 using WebApplication2.Models;
 using WebApplication2.Services;
 
@@ -20,6 +18,7 @@ public class RestaurantController : ControllerBase
     }
 
     [HttpGet]
+    [Authorize]
     public ActionResult<IEnumerable<RestaurantDto>> GetAll()
     {
         var restaurantsDto = _restaurantService.GetAll();
@@ -27,6 +26,7 @@ public class RestaurantController : ControllerBase
     }
 
     [HttpGet("{id}")]
+    [Authorize(Policy = "HasNationality")]
     public ActionResult<RestaurantDto> Get([FromRoute] int id)
     {
         var restaurantDto = _restaurantService.GetById(id);
@@ -35,6 +35,9 @@ public class RestaurantController : ControllerBase
     }
 
     [HttpPost]
+    [Authorize(Roles = "Admin")] // Authentication on roles
+    [Authorize(Roles = "Manager")]
+    // [Authorize(Roles = "Admin,Manager")]
     public ActionResult CreateRestaurant([FromBody] CreatedRestaurantDto dto)
     {
         // Walidacja api
@@ -59,5 +62,4 @@ public class RestaurantController : ControllerBase
 
         return NotFound();
     }
-
 }

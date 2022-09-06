@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace WebApplication2.Middleware;
+﻿namespace WebApplication2.Middleware;
 
 public class ErrorHandlingMiddleware : IMiddleware
 {

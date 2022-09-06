@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
-
-namespace WebApplication2.Entities;
+﻿namespace WebApplication2.Entities;
 
 public class User
 {

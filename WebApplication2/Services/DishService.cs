@@ -1,6 +1,4 @@
-﻿using System.Data.SqlTypes;
-using System.Dynamic;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Entities;
 using WebApplication2.Models;

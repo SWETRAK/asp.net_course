@@ -1,5 +1,3 @@
-
-
 namespace WebApplication2.Entities;
 
 public sealed class Restaurant

@@ -77,3 +77,10 @@ C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\NLog.
 C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

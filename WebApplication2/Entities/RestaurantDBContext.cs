@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Connections;
 using Microsoft.EntityFrameworkCore;
 
 namespace WebApplication2.Entities;

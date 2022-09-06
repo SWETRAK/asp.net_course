@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using WebApplication2.Controllers;
 using WebApplication2.Entities;
 using WebApplication2.Models;
 
