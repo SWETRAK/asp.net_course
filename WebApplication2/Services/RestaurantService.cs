@@ -6,15 +6,25 @@ using WebApplication2.Models;
 
 namespace WebApplication2.Services;
 
+public interface IRestaurantService
+{
+    IEnumerable<RestaurantDto> GetAll();
+    RestaurantDto GetById(int id);
+    RestaurantDto Save(CreatedRestaurantDto dto);
+    bool Delete(int id);
+}
+
 public class RestaurantService : IRestaurantService
 {
     private readonly RestaurantDbContext _dbContext;
     private readonly IMapper _mapper;
+    private readonly ILogger<RestaurantService> _logger;
 
-    public RestaurantService(RestaurantDbContext dbContext, IMapper mapper)
+    public RestaurantService(RestaurantDbContext dbContext, IMapper mapper, ILogger<RestaurantService> logger)
     {
         _dbContext = dbContext;
         _mapper = mapper;
+        _logger = logger;
     }
 
     public IEnumerable<RestaurantDto> GetAll()
@@ -48,6 +58,7 @@ public class RestaurantService : IRestaurantService
 
     public bool Delete(int id)
     {
+        _logger.LogWarning($"Restaurant with id: {id} DELETE action invoked");
         var restaurant = _dbContext
             .Restaurants
             .FirstOrDefault(r => r.Id == id);

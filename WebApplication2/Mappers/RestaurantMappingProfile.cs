@@ -22,5 +22,7 @@ public class RestaurantMappingProfile: Profile
             }));
 
         CreateMap<Dish, DishDto>();
+        
+        CreateMap<CreateDishDto, Dish>();
     }
 }

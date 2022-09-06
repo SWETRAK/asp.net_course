@@ -70,3 +70,7 @@ C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\obj\Debug\net6.0\WebAp
 C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\obj\Debug\net6.0\ref\WebApplication2.dll
 C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\nlog.config
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\NLog.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\NLog.Web.AspNetCore.dll

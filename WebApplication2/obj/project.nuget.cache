@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s4rJ6VOhWH3on4pKx1UyR75zLQQDBPnoF0iG2vfDNQCaTlwSOQ5d+b9Innm3zhmr3DIJIdUXHO6M/zwZ/5190A==",
+  "dgSpecHash": "8x8q9HWXKRU9UesXQsjIwNL2S4jOikqc8FE7Bxn3+4THweUhCMw2mH6iqSG1FFiKmYrLlflB020Zp1z99/+ZUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\pietrakk\\Projects\\asp.net_course\\WebApplication2\\WebApplication2.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,9 @@
     "C:\\Users\\pietrakk\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\pietrakk\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\pietrakk\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\pietrakk\\.nuget\\packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512",
+    "C:\\Users\\pietrakk\\.nuget\\packages\\nlog.extensions.logging\\5.0.4\\nlog.extensions.logging.5.0.4.nupkg.sha512",
+    "C:\\Users\\pietrakk\\.nuget\\packages\\nlog.web.aspnetcore\\5.1.4\\nlog.web.aspnetcore.5.1.4.nupkg.sha512",
     "C:\\Users\\pietrakk\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
     "C:\\Users\\pietrakk\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.6\\npgsql.entityframeworkcore.postgresql.6.0.6.nupkg.sha512",
     "C:\\Users\\pietrakk\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

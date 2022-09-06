@@ -11,6 +11,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.8",
           "Microsoft.EntityFrameworkCore.Design": "6.0.8",
+          "NLog.Web.AspNetCore": "5.1.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.6",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -159,6 +160,38 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "assemblyVersion": "1.2.3.0",
             "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "NLog/5.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.4.1331"
+          }
+        }
+      },
+      "NLog.Extensions.Logging/5.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "NLog": "5.0.4"
+        },
+        "runtime": {
+          "lib/net5.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.4.221"
+          }
+        }
+      },
+      "NLog.Web.AspNetCore/5.1.4": {
+        "dependencies": {
+          "NLog.Extensions.Logging": "5.0.4"
+        },
+        "runtime": {
+          "lib/net5.0/NLog.Web.AspNetCore.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.4.628"
           }
         }
       },
@@ -383,6 +416,27 @@
       "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "NLog/5.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hMyC7jq1m7c339DZXTRz96b+0YsIYSwAUB8sAWMtqXd2uwJjYe+y1k74fbItODPqDuE/krd6A4mxew9gLMS+PQ==",
+      "path": "nlog/5.0.4",
+      "hashPath": "nlog.5.0.4.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/5.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-43f4l7pY5cEjU/m2Xj4kDZhBmwS1xYP1kOzCQiXwv3PWpziGLfF8kA22idk+yRhMfNVExQ/OFnBaoxk6JB3JeA==",
+      "path": "nlog.extensions.logging/5.0.4",
+      "hashPath": "nlog.extensions.logging.5.0.4.nupkg.sha512"
+    },
+    "NLog.Web.AspNetCore/5.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LxKgX/vvjk8dHe5EcHTrSBrgu5G+I8KLtU2if9x83CEK2bwFNvb5oudtH/ZtjzLALFM8uN/URHznBMocQi30Ng==",
+      "path": "nlog.web.aspnetcore/5.1.4",
+      "hashPath": "nlog.web.aspnetcore.5.1.4.nupkg.sha512"
     },
     "Npgsql/6.0.6": {
       "type": "package",
