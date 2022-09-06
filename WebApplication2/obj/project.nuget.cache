@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "8x8q9HWXKRU9UesXQsjIwNL2S4jOikqc8FE7Bxn3+4THweUhCMw2mH6iqSG1FFiKmYrLlflB020Zp1z99/+ZUQ==",
+  "dgSpecHash": "qn6EuhoqfguM+lDLUr72x8nmx7lMoIvuYl3cJOv5nkDwTP3Hrj38tKPt2iSeUg0uaTYeyLJToL+nLeK/bZcwSQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\pietrakk\\Projects\\asp.net_course\\WebApplication2\\WebApplication2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pietrakk\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\pietrakk\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\pietrakk\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\pietrakk\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.1\\fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "C:\\Users\\pietrakk\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "C:\\Users\\pietrakk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pietrakk\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\pietrakk\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",

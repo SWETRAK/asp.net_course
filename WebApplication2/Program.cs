@@ -1,6 +1,11 @@
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Identity;
 using NLog.Web;
 using WebApplication2.Entities;
 using WebApplication2.Middleware;
+using WebApplication2.Models;
+using WebApplication2.Models.Validators;
 using WebApplication2.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,10 +19,20 @@ builder.Services.AddScoped<RestaurantSeeder>();
 
 builder.Services.AddScoped<IRestaurantService, RestaurantService>();
 builder.Services.AddScoped<IDishService, DishService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
 
+// Implemented ErrorHandlingMiddleware
 builder.Services.AddScoped<ErrorHandlingMiddleware>();
 
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); // AutoMapper implementation
+// AutoMapper implementation
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); 
+
+// Adding Hasher
+builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+
+// Connecting FluentValidator
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddScoped<IValidator<RegisterUserDto>, RegisterUserDtoValidator>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -25,9 +40,8 @@ builder.Services.AddSwaggerGen();
 
 // Add logger 
 builder.Logging.ClearProviders();
-builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+builder.Logging.SetMinimumLevel(LogLevel.Trace);
 builder.Host.UseNLog();
-
 
 var app = builder.Build();
 

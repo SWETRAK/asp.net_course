@@ -74,3 +74,6 @@ C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\nlog.
 C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\NLog.dll
 C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\pietrakk\Projects\asp.net_course\WebApplication2\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
